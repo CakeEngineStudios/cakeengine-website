@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>CakeEngine.com</title>
+    <link href="css/style.css" rel="stylesheet" type="text/css"/>
+    <script type = "text/javascript" src="javascript/download_framwork.js"></script>
+    <script type = "text/javascript" src="javascript/change_pages.js"></script>
+    <script type = "text/javascript" src="javascript/animations.js"></script>
+  </head>
+    <body>
+    <main>
+      <div class = "top_bar">
+        <img src = "images/CakeLogo.png" class = 'top_bar_logo'>
+        <button class = 'top_bar_home_button' id = "home button" onclick = go_home()>Home</button>
+        <button id = "calamity button" class = 'top_bar_calamity_button' onclick = go_calamity()>Calamity</button>
+        <button id = "docs button" class = 'top_bar_docs_button' onclick = go_docs()>Docs</button>
+      </div>
+
+      <div class = 'download_container'>
+        <h1 class = "page_title">As Sweet as <s>Pie</s> Cake</h1>
+        <center>
+            <button class = 'download_framework_button' onclick = "Download_Framework()"></button>
+            <button class = 'download_api_button' onclick = "Download_API()"></button>
+        </center>
+        </div>
+    </main>
+    
+    <div class = "intro_container">
+      <div class='item'>
+        <img src="images/CakeLogo.png" alt="please replace me"> 
+        <p>Develop in an simple, fast workflow, interactive enviroment</p>     
+      </div> 
+      <div class='item'>
+        <img src="images/CakeLogo.png" alt="please replace me">  
+        <p>Create immersive digital worlds with one download & click</p>    
+      </div> 
+
+      <div class='item'>
+        <img src="images/game_to_python.png" alt="please replace me">
+        <p>Program in the most populare language, Python</p>      
+      </div>  
+    </div>
+
+    <div class = 'container'>
+      <p class = "paraghgraph_text">Cake Engine is a project designed to create a workspace where individuals can learn 
+        programming along side game development for a fun, enjoyable experiance. The engine's 
+        framework is designed to have a simple and fast workflow where you can complete projects
+        with minimal to none knowledge of any programming / game development.
+        The engine strives to be the best option for beginners while also maintaining advanced tools
+        found in commercial products. 
+      </p>
+    </div>
+
+    <script type = 'text/javascript'>do_top_bar_animation();</script>
+
+    <h1 class = "instructions_h1">Download Instructions</h1>
+    <center><img class = "instructions_img" src = "images/download_instructions.png"></center>
+    <p class = 'paraghgraph_text'>So whats the catch?
+      Well there isn't one. There are no hidden paywalls or royalities. What you make is 100% yours.
+      The engine does however have a feature where you can store your project on the 'Cake Cloud'
+      where your development team can directly access and work on the project. you, of course may
+      choose to use a free alternative like github as the feature is built in. But if you are intrested
+      in purchesing a cloud server, the link below will lead you to more information about it.
+      (Donations are also greatly appreciated as support for the development of the engine!)
+    </p>
+    <footer>
+      <p>&#169;Copyright of CakeEngineStudios (2024 - 2024)</p>
+    </footer>
+  </body>
+</html>
